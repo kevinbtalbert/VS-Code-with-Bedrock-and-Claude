@@ -1,0 +1,27 @@
+name: "VS Code + Claude Code with AWS Bedrock"
+slug: "vscode-claude-aws-bedrock"
+description: "Browser VS Code (code-server) and Claude Code coding agents on Cloudera AI Workbench, routed to Amazon Bedrock via LiteLLM."
+catalog_classification:
+  - Developer Example
+launchable: true
+lifecycle_status: Active
+industry: General
+industry_alignment: "Horizontal"
+tags:
+  - vscode
+  - code-server
+  - claude-code
+  - aws-bedrock
+  - bedrock
+  - coding-agent
+  - litellm
+  - cloudera-ai
+product_mapping:
+  - Cloudera Machine Learning
+  - Amazon Bedrock
+publisher: cloudera
+source: Internal
+public_github_link: "https://github.com/kevinbtalbert/VS-Code-with-Bedrock-and-Claude"
+maintainer_name: "Kevin Talbert"
+date_created: "2026-09-28"
+date_updated: "2026-10-01"
