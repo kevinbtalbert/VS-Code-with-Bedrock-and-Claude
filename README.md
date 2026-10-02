@@ -5,6 +5,7 @@ Custom ML runtime for **Cloudera AI Workbench / CML** that launches **VS Code in
 ## Table of Contents
 
 - [Overview](#overview)
+- [Demo](#demo)
 - [Use Case](#use-case)
 - [Key Features](#key-features)
 - [Quickstart](#quickstart)
@@ -31,8 +32,9 @@ VS Code (browser)  →  integrated terminal  →  claude  →  LiteLLM (localhos
 
 No model runs inside the workbench pod—inference uses Bedrock in your AWS account.
 
+## Demo
 
-Check out a short demo walkthrough here: (https://app.getreprise.com/present/Q6oxDZn)[https://app.getreprise.com/present/Q6oxDZn]
+Check out a short demo walkthrough here: https://app.getreprise.com/present/Q6oxDZn
 
 ## Use Case
 
