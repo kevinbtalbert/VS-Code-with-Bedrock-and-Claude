@@ -31,6 +31,9 @@ VS Code (browser)  →  integrated terminal  →  claude  →  LiteLLM (localhos
 
 No model runs inside the workbench pod—inference uses Bedrock in your AWS account.
 
+
+Check out a short demo walkthrough here: (https://app.getreprise.com/present/Q6oxDZn)[https://app.getreprise.com/present/Q6oxDZn]
+
 ## Use Case
 
 Teams on Cloudera AI want a **full IDE** plus **agentic coding** (shell, edits, search) without routing model traffic through Anthropic’s cloud API. This runtime keeps editing and agents on governed CML infrastructure while **model choice and credentials stay in AWS**.
@@ -248,15 +251,6 @@ Keep LiteLLM when you want one `BEDROCK_MODEL` for all Claude tiers or may add n
 | **Workbench session** | e.g. 2 vCPU / 4 GiB RAM; **no GPU** for editor or proxy |
 | **AWS Bedrock** | Inference in AWS; no GPU required in the workbench pod |
 
-## Troubleshooting
-
-### VS Code
-
-| Issue | Fix |
-| --- | --- |
-| Editor does not appear | Runtime registered; `ML_RUNTIME_EDITOR=VsCode` on the image |
-| Port / proxy errors | Nothing else on `8090`; restart session |
-| Extension install fails | Prefer Open VSX; some Marketplace extensions need VSIX |
 
 ### Claude Code + Bedrock
 
