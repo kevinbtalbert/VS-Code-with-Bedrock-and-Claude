@@ -100,7 +100,7 @@ Optional: `CODE_SERVER_BIND` (default `127.0.0.1:8090`).
 
 | Name | Value |
 |------|--------|
-| `BEDROCK_MODEL` | Bedrock model id (e.g. `us.anthropic.claude-sonnet-4-6`) |
+| `BEDROCK_MODEL` | Bedrock model id (e.g. `us.anthropic.claude-sonnet-5-5`) dont forget us. for cross region inference if comparing directly to model ID |
 | `AWS_REGION` | Bedrock region (e.g. `us-east-1`) |
 
 **Option A — Auto-refresh (recommended):**
@@ -171,9 +171,8 @@ Designed for **Anthropic Claude on Bedrock** (tool calling + Claude Code agent l
 
 | Model | Example `BEDROCK_MODEL` | Notes |
 |-------|-------------------------|-------|
-| Claude Sonnet 4 | `us.anthropic.claude-sonnet-4-6` | Speed / capability balance |
-| Claude Opus 4 | `us.anthropic.claude-opus-4-6` | Highest capability |
-| Claude 3.5 Sonnet | `anthropic.claude-3-5-sonnet-20241022-v2:0` | Region-specific id |
+| Claude Sonnet 5 | `us.anthropic.claude-sonnet-5-5` | Speed / capability balance |
+| Claude Opus 5 | `us.anthropic.claude-opus-5-5` | Highest capability |
 
 Use the exact id from the [model catalog](https://console.aws.amazon.com/bedrock/home#/model-catalog) for your region.
 
